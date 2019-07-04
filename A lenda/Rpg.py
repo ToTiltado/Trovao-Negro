@@ -3,7 +3,7 @@ from time import sleep
 from pygame import mixer
 os.system('clear')
 mixer.init()
-mixer.music.load('/home/leandro/Área de Trabalho/Atom_Leandro/A lenda/Cobblestone Village.mp3')
+mixer.music.load('/home/leandro/Trovao-Negro/A lenda/Cobblestone Village.mp3')
 mixer.music.play(loops=1000, start=0.0)
 os.system('clear')
 nomep = str(input('Digite o nome do seu personagem: '))
@@ -20,7 +20,7 @@ if pular99 == 1:
     if pular1 == 1:
         mixer.music.pause()
         mixer.init()
-        mixer.music.load('/home/leandro/Área de Trabalho/Atom_Leandro/A lenda/Musica de Batalha RPG Parte 1.mp3')
+        mixer.music.load('/home/leandro/Trovao-Negro/A lenda/Musica de Batalha RPG Parte 1.mp3')
         mixer.music.play(loops=1000, start=0.0)
         print('----------')
         print('FASE 01:')
