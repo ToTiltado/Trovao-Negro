@@ -4,8 +4,7 @@ from pygame import mixer
 os.system('clear')
 mixer.init()
 mixer.music.load('Cobblestone Village.mp3')
-mixer.music.play(start=0.0)
-os.system('clear')
+mixer.music.play(loops=1000)
 nomep = str(input('Digite o nome do seu personagem: '))
 os.system('clear')
 print('Há muito tempo atrás,demônios invadiram o reino de Grã-Bretanha.\nSim,Você {} foi os escolhido para ser o portador do poder do Trovão negro\nTerá que cumprir a profecia de salvar a Grã-Bretanha'.format(nomep))
@@ -20,7 +19,7 @@ if pular99 == 1:
     if pular1 == 1:
         mixer.music.pause()
         mixer.init()
-        mixer.music.load('/home/leandro/Trovao-Negro/A lenda/Musica de Batalha RPG Parte 1.mp3')
+        mixer.music.load('Musica de Batalha RPG Parte 1.mp3')
         mixer.music.play(loops=1000, start=0.0)
         print('----------')
         print('FASE 01:')
