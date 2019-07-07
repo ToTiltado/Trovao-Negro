@@ -17,6 +17,7 @@ if pular99 == 1:
     print('Você {} nasceu em uma família muito pobre,mas mesmo assim não deixava a vida te derrubar você estava sempre animado\nAlém disso você não conhece seu pai,ele largou você e sua mãe quando você ainda não era nascido\nUma certa noite você com seus 15 anos estava na cama se preparando para dormir\nQuando do nada um Trovão negro caio sobre você atravessando o teto da casa e colocando fogo nela\nSua mãe desesperada foi para seu quarto e viu você divido ao meio,você estava quase morto\nMas do nada as partes dividas do seu corpo começaram a se juntar,por uma energia desconhecida.'.format(nomep))
     pular1 = int(input('Digite 1 para pular:\n'))
     if pular1 == 1:
+        os.system('clear')
         mixer.music.pause()
         mixer.init()
         mixer.music.load('Musica de Batalha RPG Parte 1.mp3')
@@ -26,6 +27,7 @@ if pular99 == 1:
         print('----------')
         f1 = int(input('Após se recuperar no hospital você encontra uns garotos zuando um menina por ser pobre oque você faz?\n1:Faz nada\n2:Pede para parar\n3:Tenta impedir\n4:Bates neles\n'))
         if f1 == 1:
+            os.system('clear')
             print('O menina acabou apanhando,e você não fez nada')
             sleep(2)
             print('Você perdeu,o jogo irá recomeçar daqui 10 segundos')
@@ -34,6 +36,7 @@ if pular99 == 1:
             os.system('clear')
             os.system('python3 Rpg.py')
         elif f1 == 2:
+            os.system('clear')
             print('Você pediu para parar,mas eles fizeram e tacarem pedras em você')
             sleep(2)
             print('Você perdeu,o jogo irá recomeçar daqui 10 segundos')
@@ -42,6 +45,7 @@ if pular99 == 1:
             os.system('clear')
             os.system('python3 Rpg.py')
         elif f1 == 3:
+            os.system('clear')
             print('Você tentou impedir,mas acabaram te batendo e você nunca mais saiu de casa')
             sleep(2)
             print('Você perdeu,o jogo irá recomeçar daqui 10 segundos')
@@ -63,7 +67,10 @@ if pular99 == 1:
                 if f3 == 1:
                     os.system('clear')
                     print('Você e Glyni tentaram fugir,mas o demônio jogou uma magia nas costas da Glyni\nMas você conseguiu levantar ela,e fugiram')
-                    f4 = int(input(''))
+                    f4 = int(input('Você verifica se esta tudo bem com a Glyni,você olhou e aparentemente ela estava bem\nO que você faz\n1:Levar Glyni para casa,pois e perto,e depois ir ver como está sua mãe\n2:Levar a Glyni para o hospital,e depois ver sua mãe\n'))
+                    if f4 == 1:
+                        os.system('clear')
+                        print('')
             elif f2 == 2:
                 os.system('clear')
                 print('Você acabou socando uma árvore,e derrubou ela com um único soco')
@@ -74,6 +81,7 @@ if pular99 == 1:
                     os.system('clear')
                     f4 = int(('Você teve que provar no dia em seguinte,deu certo,mas pelo esforço que você fez,gerou muita energia\nIsso chamou atenção dos demônios que estavam dispostos a entrar em guerra com o mundo para obter seu poder\nQuando os demônios estam prestes a sair do inferno você sente a energia deles oque fazer\n1:Avisar todo mundo para fugirem,e fugir junto\n2:Avisar para todo mundo fugir,e lutar com os demônios\n'))
                 else:
+                    os.system('clear')
                     print('Escreva um numero valido')
                     sleep(2)
                     mixer.music.pause()
@@ -82,6 +90,7 @@ if pular99 == 1:
                     os.system('clear')
                     os.system('python3 Rpg.py')
             else:
+                os.system('clear')
                 print('Escreva um numero valido')
                 sleep(2)
                 mixer.music.pause()
@@ -90,20 +99,24 @@ if pular99 == 1:
                 os.system('clear')
                 os.system('python3 Rpg.py')
         else:
+            os.system('clear')
             print('Digite um numero valido\nO programa reniciará em 10 segundos!!')
             mixer.music.pause()
             sleep(10)
             os.system('clear')
             os.system('python3 Rpg.py')
-    elif pular1 != 1:
+    else:
+        os.system('clear')
         print('escreva um numero valido\nPrograma reniciará em 10 segundos!!')
         sleep(10)
         mixer.music.pause()
         os.system('clear')
         os.system('python3 Rpg.py')
-elif pular99 != 1:
+else:
+    os.system('clear')
     print('Escreva um numero valido\nO programa reniciará em 10 segundos')
     mixer.music.pause()
     sleep(10)
     os.system('clear')
     os.system('python3 Rpg.py')
+print('FIM\nCRIADOR:LEANDRO\nPROGRAMADOR:LEANDRO\nROTEIRISTA\nIDEIA DE FAZER O RPG:ESDRAS')
