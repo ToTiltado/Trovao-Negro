@@ -57,14 +57,30 @@ if pular99 == 1:
             print('----------')
             f2 = int(input('Após quebrar todo mundo na porrada você descobriu que o nome dessa menina é Glyni\nE vocês viraram muito amigos 5 anos se passaram e vocês continuam amigos\nEntão certo dia Glyni pediu pra que você cortasse umas árvores na frenta da casa dela\nMas não tinha nada para cortar então escolha uma opção:\n1:Fazer nada\n2:Ficar puto ficar socando e chutando as coisas\n'))
             if f2 == 1:
+                os.system('clear')
                 print('Glyni ficou estresada mas te entendeu.')
+                f3 = int(input('Então no mesmo dia,vocês foram ao ferrero,para pedir para que ele fizesse um machado para vocês\nEntão no outro dia vocês foram buscar o machado,mas do nada vocês sentiram tremores,então saiu umas especie de demônios do chão o que você vai fazer?\n1:Fugir com a Glyni\n2:Lutar com seu machado'))
+                if f3 == 1:
+                    os.system('clear')
+                    print('Você e Glyni tentaram fugir,mas o demônio jogou uma magia nas costas da Glyni\nMas você conseguiu levantar ela,e fugiram')
+                    f4 = int(input(''))
             elif f2 == 2:
+                os.system('clear')
                 print('Você acabou socando uma árvore,e derrubou ela com um único soco')
                 sleep(2.5)
                 print('Você descoobriu que tem algo muito errado com você desde daquele dia que você foi atingido por um trovão')
                 f3 = int(input('Você mostrou para a Glyni que você derrubou tudo no soco\nMas ela duvidou,então você explicou tudo,todavia ela pediu para você provar\nMas você está cansado para provar\n1:Falar que está cansado,e dormir\n2:Provar para ela\n'))
                 if f3 == 1:
+                    os.system('clear')
                     f4 = int(('Você teve que provar no dia em seguinte,deu certo,mas pelo esforço que você fez,gerou muita energia\nIsso chamou atenção dos demônios que estavam dispostos a entrar em guerra com o mundo para obter seu poder\nQuando os demônios estam prestes a sair do inferno você sente a energia deles oque fazer\n1:Avisar todo mundo para fugirem,e fugir junto\n2:Avisar para todo mundo fugir,e lutar com os demônios\n'))
+                else:
+                    print('Escreva um numero valido')
+                    sleep(2)
+                    mixer.music.pause()
+                    print('O programa reniciará daqui 10 segundos')
+                    sleep(10)
+                    os.system('clear')
+                    os.system('python3 Rpg.py')
             else:
                 print('Escreva um numero valido')
                 sleep(2)
