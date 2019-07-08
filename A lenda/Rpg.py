@@ -56,17 +56,24 @@ if pular99 == 1:
         elif f1 == 4:
             os.system('clear')
             print('Você deu um soco tão forte em um dos garotos,que ela acabou voando para metros de distancia')
+            sleep(3.5)
             print('----------')
             print('FASE 02')
             print('----------')
             f2 = int(input('Após quebrar todo mundo na porrada você descobriu que o nome dessa menina é Glyni\nE vocês viraram muito amigos 5 anos se passaram e vocês continuam amigos\nEntão certo dia Glyni pediu pra que você cortasse umas árvores na frenta da casa dela\nMas não tinha nada para cortar então escolha uma opção:\n1:Fazer nada\n2:Ficar puto ficar socando e chutando as coisas\n'))
             if f2 == 1:
                 os.system('clear')
+                print('----------')
+                print('FASE 03')
+                print('----------')
                 print('Glyni ficou estresada mas te entendeu.')
                 f3 = int(input('Então no mesmo dia,vocês foram ao ferrero,para pedir para que ele fizesse um machado para vocês\nEntão no outro dia vocês foram buscar o machado,mas do nada vocês sentiram tremores,então saiu umas especie de demônios do chão o que você vai fazer?\n1:Fugir com a Glyni\n2:Lutar com seu machado'))
                 if f3 == 1:
                     os.system('clear')
                     print('Você e Glyni tentaram fugir,mas o demônio jogou uma magia nas costas da Glyni\nMas você conseguiu levantar ela,e fugiram')
+                    print('----------')
+                    print('FASE 04')
+                    print('----------')
                     f4 = int(input('Você verifica se esta tudo bem com a Glyni,você olhou e aparentemente ela estava bem\nO que você faz\n1:Levar Glyni para casa,pois e perto,e depois ir ver como está sua mãe\n2:Levar a Glyni para o hospital,e depois ver sua mãe\n'))
                     if f4 == 1:
                         os.system('clear')
@@ -75,6 +82,9 @@ if pular99 == 1:
                 os.system('clear')
                 print('Você acabou socando uma árvore,e derrubou ela com um único soco')
                 sleep(2.5)
+                print('----------')
+                print('FASE 03')
+                print('----------')
                 print('Você descoobriu que tem algo muito errado com você desde daquele dia que você foi atingido por um trovão')
                 f3 = int(input('Você mostrou para a Glyni que você derrubou tudo no soco\nMas ela duvidou,então você explicou tudo,todavia ela pediu para você provar\nMas você está cansado para provar\n1:Falar que está cansado,e dormir\n2:Provar para ela\n'))
                 if f3 == 1:
@@ -119,4 +129,4 @@ else:
     sleep(10)
     os.system('clear')
     os.system('python3 Rpg.py')
-print('FIM\nCRIADOR:LEANDRO\nPROGRAMADOR:LEANDRO\nROTEIRISTA\nIDEIA DE FAZER O RPG:ESDRAS')
+print('FIM\nCRIADOR:LEANDRO\nPROGRAMADOR:LEANDRO\nROTEIRISTA:LEANDRO\nIDEIA DE FAZER O RPG:ESDRAS')
