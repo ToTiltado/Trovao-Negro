@@ -67,17 +67,73 @@ if pular99 == 1:
                 print('FASE 03')
                 print('----------')
                 print('Glyni ficou estresada mas te entendeu.')
-                f3 = int(input('Então no mesmo dia,vocês foram ao ferrero,para pedir para que ele fizesse um machado para vocês\nEntão no outro dia vocês foram buscar o machado,mas do nada vocês sentiram tremores,então saiu umas especie de demônios do chão o que você vai fazer?\n1:Fugir com a Glyni\n2:Lutar com seu machado'))
+                f3 = int(input('Então no mesmo dia,vocês foram ao ferrero,para pedir para que ele fizesse um machado para vocês\nEntão no outro dia vocês foram buscar o machado,mas do nada vocês sentiram tremores,então saiu umas especie de demônios do chão o que você vai fazer?\n1:Fugir com a Glyni\n2:Lutar com seu machado\n'))
                 if f3 == 1:
                     os.system('clear')
                     print('Você e Glyni tentaram fugir,mas o demônio jogou uma magia nas costas da Glyni\nMas você conseguiu levantar ela,e fugiram')
                     print('----------')
                     print('FASE 04')
                     print('----------')
-                    f4 = int(input('Você verifica se esta tudo bem com a Glyni,você olhou e aparentemente ela estava bem\nO que você faz\n1:Levar Glyni para casa,pois e perto,e depois ir ver como está sua mãe\n2:Levar a Glyni para o hospital,e depois ver sua mãe\n'))
+                    f4 = int(input('Você verifica se esta tudo bem com a Glyni,você olhou e aparentemente ela estava bem\nO que você faz?\n1:Levar Glyni para casa dela,pois e mais perto da sua casa,para que você veja como está sua mãe\n2:Levar a Glyni para o hospital,e depois ver sua mãe\n'))
                     if f4 == 1:
                         os.system('clear')
-                        print('')
+                        print('----------')
+                        print('FASE 05')
+                        print('----------')
+                        f5 = int(input('Quando você chegou na sua casa,viu sua mãe jogada no chão,ela estava bem,mas estava desmaiada\nEntão você ouviu um barulho vindo da cozinha,quando você chegou lá você viu um demônio de 2 metro\nOque você faz?\n1:Lutar\n2:Mete o pé\n'))
+                        if f5 == 1:
+                            os.system('clear')
+                            print('----------')
+                            print('FASE 06')
+                            print('----------')
+                            f6 = int(input('Você ficou putasso e foi para cima dando logo um socão na cara do demônio para ele ficar esperto\nEle decidiu atacar,enquanto o soco dele estava vindo\noque você faz?\n1:Esquivar\n2:Da um soco na mão dele\n'))
+                            if f6 == 1:
+                                os.system('clear')
+                                print('----------')
+                                print('FASE 07')
+                                print('----------')
+                                f7  = int(input('Você se esquivou,mas você não tinha visto que sua mãe estava indo ver como você estava,e ela acabou recebendo o soco do demônio\nFoi um soco tão forte,que ela foi decapitada,Você ficou mais puto do que já estava,então com um unico soco\nVocê matou o demônio e destruiu sua casa ao mesmo tempo\nOque você faz agora\n1:Enterrar sua mãe e andar pelas ruas chorando\n2:Enterrar sua mãe e ir para a casa da Glyni\n'))
+                                if f7 == 1:
+                                    os.system('clear')
+                                    print('----------')
+                                    print('FASE 08')
+                                    print('----------')
+                                    f8 = int(input('Você saiu pelas ruas chorando,ai você senta em um banco\nO que você faz agora?\n1:Volta para casa da Glyni\n2:Ficar andando por ai chorando\n'))
+                                    if f8 == 1:
+                                        os.system('clear')
+                                        print('----------')
+                                        print('FASE 09')
+                                        print('----------')
+                                        f9 = int(input('Quando você chegou na casa da Glyni,você viu sangue no chão,e depois ouviu barulho da Glyni gritando\nTinha um demônio devorando\nO que você faz\n1:Atacar sem piedade\n2:Testa pegar a Glyni e leva ela embora puxando o braço dela\n'))
+                                        if f9 == 1:
+                                            os.system('clear')
+                                            print('----------')
+                                            print('FASE 10')
+                                            print('----------')
+                                            f10 = int(input(''))
+                                    elif f8 == 2:
+                                        os.system('clear')
+                                        print('Brotou um demônio do nada do seu lado,e te deu um soco,você estava sem vontade de viver\nEntão o demônio enfiou a mão dele no seu peito\nVocê morreu')
+                                        p = int(input('1:Recomeçar\n2:Parar\n'))
+                                        if p == 1:
+                                            os.system('clear')
+                                            os.system('python3 Rpg.py')
+                                        elif p == 2:
+                                            exit()
+                                        else:
+                                            print('Digite um numero valido')
+                                            p = int(input('1:Recomeçar\n2:Parar\n'))
+                                            if p != 1 or p != 2:
+                                                x = 1
+                                                while x != 0:
+                                                    if p != 1 or p != 2:
+                                                        print('Escreva um numero valido animal')
+                                                        sleep(5)
+                                                        os.system('clear')
+                                                        p = int(input('1:Recomeçar\n2:Parar\n'))
+                                                        x += 0
+                                                    else:
+                                                        x -= 1
             elif f2 == 2:
                 os.system('clear')
                 print('Você acabou socando uma árvore,e derrubou ela com um único soco')
